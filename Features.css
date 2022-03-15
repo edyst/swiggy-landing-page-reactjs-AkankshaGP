@@ -1,0 +1,40 @@
+.Main-Container{
+    background-color: #2b1e16;
+    text-align: center;
+    color: white;
+}
+
+.flex-container{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-item{
+    width: 300px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.flex-item p{
+    color: #e0cbc1;
+    font-size: 15px;
+   
+}
+
+.flex-item img{
+    padding-bottom: 42px;
+    
+}
+.img-padding{
+    padding-top: 40px;
+}
+
+.flex-item .h2f{
+    font-size: 18px;
+    line-height: 40px;
+   color: white;
+}
+
