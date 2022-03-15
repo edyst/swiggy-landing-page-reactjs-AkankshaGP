@@ -1,0 +1,228 @@
+body{
+  line-height: 1.5;
+  font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*footer section 1 css*/
+ .footercontainer{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color:black;
+    line-height: 40px;
+    font-size: 20px;
+   
+}
+
+.footerh2{
+  color: gray;
+}
+.footercontainer ul li a :hover{
+  color: #ffffff;
+  padding-left:8px;
+   }
+
+
+   .footercontainer ul li a{
+
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    color: #bbbbbb;
+    display: block;
+    transition:all 0.3s ease;
+     }
+    
+     .footercontainer ul li:not(:last-child){
+      margin-bottom: 10px;
+       }
+    
+       @media(max-width:1200px){
+        .footercontainer{
+          width: 50%;
+          margin-bottom: 30px;
+        }
+      }
+     
+      @media(max-width:600px){
+       .footercontainer{
+         width: 90%;
+         
+       }
+     }
+    
+
+   /*footer section1 company css*/
+  .secCompany{ 
+   
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+   
+}
+
+h2{
+  color: gray;
+    font-size: 20px;
+    line-height: 100px;
+}
+
+/*section Contact css*/
+.secContact{
+  color: white;
+  margin-top: 100px;
+  margin-left: 100px;
+ 
+}
+
+/*section Legal css*/
+.seclegal{
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  align-items: center;
+     
+}
+
+/*section img css*/
+.secimglogo{
+    margin-top: 100px;
+   line-height: 100px;
+   margin-right: 80px;
+}
+/*footer section1 css end */
+
+/*footer section 3 css*/
+.footerbottom{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    color:white;
+   
+  }
+
+  .bottomi{
+    margin-right: 100px;
+  }
+ 
+  */
+  .footerimg{
+  width: 100px;
+   display: flex; 
+ justify-content: space-between; 
+   align-items: center;
+   line-height: 150px;
+   
+  
+  }
+
+ .img1{
+   margin-right: 20px;
+   
+ }
+  .imgf2{
+    margin-right: 20px;
+    }
+    .imgf3{
+      margin-right: 20px;
+      }
+      .imgf4{
+        margin-right: 20px;
+        }
+/*footer section 3 css end*/
+  
+
+  
+  /*footer section 2 css*/
+
+  .headerf{
+    
+    color: gray;
+    left: 50px;
+    background: black;
+    padding-left: 50px;
+  }
+ .containerf{
+   
+   width: 100%;
+   height: auto;
+   background-color: black;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+  
+ }
+ .footerbox{
+   width: 10em;
+   height: 500px;
+   background-color: black;
+   margin: 20px;
+   box-sizing: border-box;
+   font-size: 20px;
+   color: white;
+   margin-bottom: 100px;
+
+ }
+
+
+
+
+ ul{
+   list-style: none;
+  
+ }
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ .footerbox ul li:not(:last-child){
+margin-bottom: 10px;
+ }
+
+
+ .footerbox ul li a{
+
+text-transform: capitalize;
+color: #fff;
+text-decoration: none;
+font-weight: 500;
+color: #bbbbbb;
+display: block;
+transition:all 0.3s ease;
+ }
+
+ .footerbox ul li a:hover{
+color: #ffffff;
+padding-left:8px;
+ }
+
+
+ @media(max-width:1200px){
+   .footerbox{
+     width: 50%;
+     margin-bottom: 30px;
+   }
+ }
+
+ @media(max-width:600px){
+  .footerbox{
+    width: 90%;
+    
+  }
+}
+/*footer section 2 css end*/
